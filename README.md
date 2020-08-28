@@ -67,24 +67,24 @@ client.wsSend({
 # Working with raw data
 ```JSON
 {
-  t: "GUILD_MEMBER_ADD",
-  s: 4,
-  op: 0,
-  d: {
-    user: {
-      username: "gpnvg",
-      public_flags: 0,
-      id: "744658428487794819",
-      discriminator: "9208",
-      avatar: "cf86b9138796804efb4a5b50799662bb"
+  "t": "GUILD_MEMBER_ADD",
+  "s": 4,
+  "op": 0,
+  "d": {
+    "user": {
+      "username": "gpnvg",
+      "public_flags": 0,
+      "id": "744658428487794819",
+      "discriminator": "9208",
+      "avatar": "cf86b9138796804efb4a5b50799662bb"
     },
-    roles: [],
-    premium_since: null,
-    nick: null,
-    mute: false,
-    joined_at: "2020-08-28T14:30:28.304377+00:00",
-    guild_id: "748671493168300073",
-    deaf: false
+    "roles": [],
+    "premium_since": null,
+    "nick": null,
+    "mute": false,
+    "joined_at": "2020-08-28T14:30:28.304377+00:00",
+    "guild_id": "748671493168300073",
+    "deaf": false
   }
 }
 ```
